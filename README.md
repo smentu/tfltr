@@ -16,6 +16,7 @@ I recommend using a clean Python virtual environment, especially if using NVIDIA
 
 Other dependencies:
 * [scipy](https://www.scipy.org/install.html)
+* [scikit-learn](https://scikit-learn.org/stable/install.html)
 * [numpy](https://numpy.org/install/)
 * [tqdm](https://github.com/tqdm/tqdm#installation)
 
