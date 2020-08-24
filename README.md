@@ -1,6 +1,6 @@
 # Tensorflow Latent Tensor Reconstruction
 
-Tensorflow 2 implementation of latent tensor reconstruction (LTR). Closely follows the algorithm described by Szedmak et al. in [this paper](https://arxiv.org/abs/2005.01538).
+This is a Tensorflow 2 implementation of latent tensor reconstruction (LTR). LTR can be seen as a modification to factorization machines (FM) that removes some of the restrictions on the latent representation, allowing for greater model flexibility, with only a modest increase in computational cost. For an introduction to latent tensor models, please refer to the [original LTR paper](https://arxiv.org/abs/2005.01538) or my master's thesis that is included in this repository. This implementation closely follows the algorithm described by Szedmak et al.
 
 features:
 * it is simple to swap out different loss functions and optimizers
@@ -22,4 +22,4 @@ Other dependencies:
 
 ## Getting started
 
-For a quick introduction on how to use the implementation, please take a look at the example notebook included in this repository.
+For a quick introduction on how to use the implementation, please take a look at the example notebook included in this repository. 
